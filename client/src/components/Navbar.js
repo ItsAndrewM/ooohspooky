@@ -23,11 +23,12 @@ const Ul = styled.ul`
   align-items: center;
   flex-wrap: nowrap;
   justify-content: space-between;
+  height: 100%;
 `;
 
 const Wrapper = styled.div`
   width: 100%;
-  min-height: 50px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;

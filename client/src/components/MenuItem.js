@@ -13,12 +13,18 @@ const MenuItem = ({ title, url }) => {
 
 const Li = styled.li`
   width: 100%;
+  height: 100%;
   text-align: center;
-  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-transform: uppercase;
+  line-height: 1.5em;
 `;
 
 const Span = styled.span`
   width: 100%;
+  height: 100%;
 `;
 
 const NavItem = styled(NavLink)``;

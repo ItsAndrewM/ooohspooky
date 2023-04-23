@@ -2,11 +2,11 @@ import styled from "styled-components";
 import Logo from "./Logo";
 import Navbar from "./Navbar";
 import logo_med from "../images/logo_med.jpg";
-
+import header_img_large from "../images/header_img_large.jpg";
 const Header = () => {
   return (
     <StyledHeader>
-      <Logo imgSrc={logo_med} />
+      <Logo imgSrc={header_img_large} url={"/"} />
       <Navbar />
     </StyledHeader>
   );
